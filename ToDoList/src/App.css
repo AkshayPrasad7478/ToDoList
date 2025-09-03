@@ -1,0 +1,98 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header styles */
+#header {
+  background-color: #6200ea;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ToDoItems container */
+#todo-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and button styles */
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #6200ea;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4e00b8;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+  text-wrap: wrap;
+
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#btn-edit {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #e95e22;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+#btn-delete {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #ff1744;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+#btn-delete:hover {
+  background-color: #c4001d;
+}
+#btn-edit:hover {
+  background-color:  #c56512;
+}
